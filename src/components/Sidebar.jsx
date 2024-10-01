@@ -8,8 +8,10 @@ import {
   Contact,
   Projector,
   BookA,
-  PenLine
+  PenLine,
+  Star
 } from 'lucide-react';
+import { StarFilled } from '@ant-design/icons';
 
 // MenuItem Component
 const MenuItem = ({ icon, label, isActive, onClick, isExpanded }) => (
@@ -67,6 +69,7 @@ const Sidebar = () => {
     { icon: <Contact size={20} />, label: 'Contact', path: 'contactus' },
     { icon: <BookA size={20} />, label: 'Education', path: 'education' },
     { icon: <PenLine size={20} />, label: 'Blog', path: 'blog' },
+    { icon: <StarFilled size={20} />, label: 'Skills', path: 'skills' },
   ];
 
   const handleItemClick = (label, path) => {

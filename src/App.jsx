@@ -11,6 +11,7 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
+import Skills from './components/Skills';
 const App = () => {
   return (
     <>
@@ -25,6 +26,7 @@ const App = () => {
         <Route path='projects' element={<Projects/>}/>
         <Route path='contactus' element={<ContactUs/>}/>
         <Route path='education' element={<Education/>}/>
+        <Route path='skills' element={<Skills/>}/>
 
     </Route>
   </Routes>

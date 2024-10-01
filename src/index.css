@@ -13,3 +13,103 @@ background-color: aliceblue;
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.projects-section {
+  background: linear-gradient(135deg, #f4f3f6 0%, #c26cda 70%);
+  padding: 60px 0;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.subtitle {
+  font-size: 1.2rem !important;
+  color: #4b5563 !important;
+}
+
+.project-card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: none;
+  background: white;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.project-title {
+  font-size: 1.5rem !important;
+  margin-bottom: 12px !important;
+  color: #1a365d !important;
+}
+
+.project-description {
+  color: #4b5563 !important;
+  margin-bottom: 20px !important;
+}
+
+.custom-tag {
+  border-radius: 6px;
+  padding: 4px 12px;
+  background: #e5edff;
+  color: #2563eb;
+  border: none;
+}
+
+.features-section {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.features-title {
+  display: flex;
+  align-items: center;
+  color: #1a365d !important;
+  margin-bottom: 16px !important;
+}
+
+.star-icon {
+  margin-right: 8px;
+  color: #2563eb;
+}
+
+.features-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.features-list li {
+  margin-bottom: 8px;
+  padding-left: 24px;
+  position: relative;
+  color: #4b5563;
+}
+
+.features-list li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+}
+
+.button-group {
+  margin-top: 24px;
+}
+
+.github-button {
+  background: #1a365d;
+  border: none;
+}
+
+.learn-more-button {
+  border-color: #2563eb;
+  color: #2563eb;
+}
